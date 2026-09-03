@@ -1,0 +1,39 @@
+:root {
+  --portfolio-border: #d0d7de;
+}
+
+* {
+  letter-spacing: 0 !important;
+}
+
+.resume-biography {
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+#section-resume-biography-3 {
+  background: #f6f8fa;
+  border-bottom: 1px solid var(--portfolio-border);
+}
+
+#projects [role='article'] {
+  border-color: var(--portfolio-border);
+  border-radius: 8px;
+}
+
+@media (max-width: 767px) {
+  .resume-biography {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+
+  #projects > .flex.flex-col.items-center.px-6 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  #projects .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

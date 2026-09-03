@@ -1,0 +1,55 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+
+name:
+  display: Chu Tuan Ngoc
+  given: Tuan Ngoc
+  family: Chu
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+
+role: Full-stack & Mobile Developer
+
+bio: |
+  I build practical web and mobile products across the stack, from responsive
+  interfaces and learning workflows to authentication, real-time notifications,
+  payments, and deployment. My recent work includes EnglishParty and ComiVerse.
+
+links:
+  - icon: brands/github
+    url: https://github.com/ngoctuan653
+    label: GitHub
+
+skills:
+  - name: Frontend & Mobile
+    items:
+      - label: React & JavaScript
+        level: 4
+      - label: TypeScript
+        level: 4
+      - label: Flutter & Dart
+        level: 4
+      - label: Responsive UI
+        level: 4
+  - name: Backend & Data
+    items:
+      - label: Java & Spring Boot
+        level: 3
+      - label: Firebase
+        level: 4
+      - label: PostgreSQL & Redis
+        level: 3
+      - label: REST & WebSocket
+        level: 4
+  - name: Delivery
+    items:
+      - label: Git & GitHub
+        level: 4
+      - label: Vercel & Railway
+        level: 3
+      - label: Firebase Hosting
+        level: 4
+      - label: Testing & CI
+        level: 3
